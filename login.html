@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Taverna Do Peregrino - Seja bem Vindo Viajante!</title>
+
+	<meta name="author" content="Lucas Gomes">
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+
+	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+
+<body>
+	<!-- caixa do fundo -->
+	<div class="login-pai" class="container">
+		<!-- caixa de login -->
+		<div class="box-login" class="container">
+			<!-- formulario -->
+			<div class="formzada" class="container">
+				<form action="php/login.php" method="post" class="form-login">
+					<h1>Login</h1>
+					<hr>
+
+					<input class="form-control" type="text" name="nick" placeholder="Nick" required="" id="txt-nick">
+					<input class="form-control" type="password" name="senha" placeholder="Senha" required="" id="txt-senha">
+
+					<button type="submit" class="btn btn-primary btn-block" id="btn-conf"> Entrar </button>
+					<button type="submit" class="btn btn-primary btn-block" onclick="location.href='index.php'" id="btn-volt"> Voltar </button>
+					<button type="submit" class="btn btn-primary btn-block" onclick="location.href='cadastrar.html'" id="btn-reg"> Registrar </button>
+				</form>
+			</div>	
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</html>

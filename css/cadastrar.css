@@ -1,0 +1,425 @@
+*{margin: 0;}
+
+body{
+	background-image: url(../img/Map.jpg);
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serifm; 
+}
+a{text-decoration: none; color: brown;}
+a:hover{color: #194544;}
+
+
+::-webkit-input-placeholder{color: white;}
+
+input:focus{box-shadow: 0 0 0 0; outline: 0;}
+input{font-family: Arial, Helvetica, sans-serifm; font-size: 120%;}
+
+p{
+	font-size: 80%;
+	color: white;
+}
+
+.formzada h2{
+	font-size: 40px; 
+	color: #194544;
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+
+.pai-cadastro{
+	float: right;
+	height: 900px;
+	width: 45%;
+	box-shadow: inset 1px 1px 50px black;
+	background-color: #194544;
+}
+
+.box-cadastro{
+	height: 77%;
+	width: 70%;
+	float: right;
+	margin-right: 13%;
+	margin-top: 0%;
+	background-color: black;
+	box-shadow: 1px 1px 60px 1px black;
+	opacity: 0.9;
+	border-radius: 7px;
+}
+
+.formzada{
+	height: 500px;
+	width: 100%;
+	opacity: 1;
+}
+
+#txt-nome{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #194544;
+	margin-left: 4%;
+	margin-top: 6%;
+	width: 90%;
+	color: white;
+}
+
+#txt-nick{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #194544;
+	margin-left: 4%;
+	margin-top: 6%;
+	width: 90%;
+	color: white;
+}
+
+#txt-email{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #194544;
+	margin-left: 4%;
+	margin-top: 6%;
+	width: 90%;
+	color: white;
+}
+
+#txt-confemail{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #194544;
+	margin-left: 4%;
+	margin-top: 6%;
+	width: 90%;
+	color: white;
+}
+
+#txt-data{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #194544;
+	margin-left: 25%;
+	margin-top: 6%;
+	width: 50%;
+	color: white;
+}
+
+#txt-senha{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #194544;
+	margin-left: 4%;
+	margin-top: 6%;
+	width: 90%;
+	color: white;
+}
+
+#txt-confsenha{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #194544;
+	margin-left: 4%;
+	margin-top: 6%;
+	width: 90%;
+	color: white;
+}
+
+.cmb-estado{
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #194544;
+	margin-left: -11%;
+	margin-top: 5%;
+	width: 24%;
+	color: white;
+	font-family: Arial, Helvetica, sans-serifm; 
+	font-size: 120%;
+}
+
+.cmb-cidade{
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #194544;
+	margin-left: -11%;
+	margin-top: 8%;
+	width: 24%;
+	color: white;
+	font-family: Arial, Helvetica, sans-serifm; 
+	font-size: 120%;
+}
+.cmb-bairro{
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #194544;
+	margin-left: -11%;
+	margin-top: 11%;
+	width: 24%;
+	color: white;
+	font-family: Arial, Helvetica, sans-serifm; 
+	font-size: 120%;
+}
+
+.ckb-termos{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: -10%;
+}
+
+p{
+	position: absolute;
+	margin-top: 11.5%;
+	margin-left: 3.5%;
+}
+
+.btn-cadastrar{
+	position: absolute;
+	margin-top: 17%;
+	margin-left: -10%;
+	height: 4%;
+	color: white;
+	width: 10%;
+	border: none;
+	border-radius: 2px;
+	background-color: #194544;
+	font-family: Arial, Helvetica, sans-serifm; font-size: 80%;
+}
+.btn-cadastrar:hover{
+	background-color: royalblue;
+	box-shadow: 0px 0px 10px 0px #3E3C3C;
+}
+
+.btn-voltar{
+	position: absolute;
+	margin-top: 13.5%;
+	margin-left: 14.5%;
+	height: 4%;
+	color: white;
+	width: 10%;
+	border: none;
+	border-radius: 2px;
+	background-color: #194544;
+	font-family: Arial, Helvetica, sans-serifm; font-size: 80%;
+}
+
+#lbl-termos{
+	margin-left: 25%;
+	color: white;
+	margin-top: 6%;	
+}
+
+#btn-cadastrar{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+	border-color: black;
+	background-color: #194544;
+}
+
+#btn-voltar{
+	width: 90%;
+	margin-left: 5%;
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+}
+
+#btn-cadastrar:hover{
+	box-shadow: 0px 0px 20px 1px #194544;
+	border: 1px solid #194544;
+}
+
+#btn-voltar:hover{
+	box-shadow: 0px 0px 10px 1px brown;
+	border: 1px solid brown;
+}
+
+.tooltiptext {
+	visibility: hidden;
+  width: 120px;
+  background-color: brown;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  left: 74%;
+}
+.tooltiptext::after {
+
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent brown transparent;
+}
+
+.tooltiptext2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: brown;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 33%;
+  left: 74%;
+}
+.tooltiptext2::after {
+	
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent brown transparent;
+}
+
+
+.tooltiptext3 {
+  visibility: hidden;
+  width: 120px;
+  background-color: brown;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 57%;
+  left: 74%;
+}
+.tooltiptext3::after {
+	
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent brown transparent;
+}
+
+
+.tooltiptext4 {
+  visibility: hidden;
+  width: 120px;
+  background-color: brown;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 73%;
+  left: 74%;
+}
+.tooltiptext4::after {
+	
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent brown transparent;
+}
+
+
+.tooltiptext5 {
+  visibility: hidden;
+  width: 120px;
+  background-color: brown;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 65%;
+  left: 74%;
+}
+.tooltiptext5::after {
+	
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent brown transparent;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) { 
+
+
+.pai-cadastro{
+	float: left;
+	height: 900px;
+	width: 100%;
+	box-shadow: inset 1px 1px 50px black;
+	background-color: transparent;
+}
+
+.box-cadastro{
+	height: 100%;
+	width: 70%;
+	float: right;
+	margin-right: 13%;
+	margin-top: 0%;
+	background-color: black;
+	box-shadow: 1px 1px 60px 1px black;
+	opacity: 0.9;
+	border-radius: 7px;
+}
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 700px) { 
+
+
+.box-cadastro{
+	height: 100%;
+	width: 100%;
+	float: left;
+	margin-right: 13%;
+	margin-top: 0%;
+	background-color: black;
+	box-shadow: 1px 1px 60px 1px black;
+	opacity: 0.9;
+	border-radius: 7px;
+}
+
+.formzada{
+
+}
+
+}

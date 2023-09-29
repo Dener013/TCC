@@ -1,0 +1,546 @@
+#box-chat-geral{
+  width: 100%;
+  height: 700px;
+  margin-top: 0%;
+  border: 5px solid black;
+  box-shadow: 0px 0px 40px 30px black;
+  background-color: ;
+}
+
+#box-chat-geral div{
+  float: left;
+}
+#isso div{
+float: none;
+}
+#box-lst-maior{
+  height: 100%;
+  width: 30%;
+  background-color: #151515;
+  border-right: 5px solid black;
+}
+
+#box-chat-maior{
+  height: 100%;
+  width: 70%;
+  background-color: black;
+}
+
+#box-converse{
+
+  background-color: #151515;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#img-coruja-chat{
+  text-align: center;
+  width: 15%;
+  height: 20%;
+  margin-top: -8%; 
+}
+
+#con{
+  text-align: center;
+  line-height: 300px;
+  font-size: 500%;
+  color: brown;
+}
+
+
+#my-modal div{
+  float: none;
+}
+#my-modal-a div{
+  float: none;
+}
+#my-modal-e div{
+  float: none;
+}
+
+
+#box-myinfo{
+  width: 100%;
+  height: 20%;
+  background-color: transparent;
+}
+
+#lst-amigos{
+  width: 100%;
+  height: 80%;
+  background-color: transparent;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-top: 2px solid darkgrey;
+}
+
+#amigo{
+  height: 20%;
+  width: 96%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  border-bottom: 1px solid darkgrey;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#nem-amigo{
+  text-align: center;
+  color: brown;
+  height: 20%;
+  width: 100%;
+  margin-left: 10%;
+  background-color: transparent;
+}
+
+#amigo:hover{
+  background-color: #1C1C1C;
+}
+
+#img-mesa{
+  border-radius: 100%;  
+  width: 20%;
+  height: 70%;
+  margin-top: 2%;
+  margin-left: 1%;
+  border: 2px solid white;
+}
+
+#img-usuario{
+  border-radius: 100%;  
+  width: 16%;
+  height: 90%;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+#img-mesa img{
+  border-radius: 100%;  
+  width: 100%;
+  height: 100%;
+}
+
+#img-usuario img{
+  border-radius: 100%;  
+  width: 100%;
+  height: 100%;
+  margin-left: 2%;
+}
+
+#myinfo{
+  width: 75%;
+  height: 100%;
+  margin-left: 2%;
+}
+
+#myinfo h3{
+  font-size: 210%;
+  color: white;
+}
+
+#myinfo h4{
+  font-family: Arial, Helvetica, sans-serifm; font-size: 140%;
+  color: white;
+}
+
+
+
+
+#info-mesa{
+  width: 75%;
+  height: 100%;
+  margin-left: 2%;
+}
+
+#info-mesa h3{
+  font-size: 170%;
+  color: white;
+}
+
+#info-mesa h4{
+  font-family: Arial, Helvetica, sans-serifm; font-size: 120%;
+  color: white;
+}
+
+
+#eu{
+  width: 100%;
+  height: 50%;
+  box-shadow: 0px 0px 5px 1px black;
+  text-align: center;
+}
+
+#eu h1{
+  color: brown;
+  font-size: 250%;
+}
+
+#pesquisar-chat{
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+}
+
+#pesquisar-lst{
+  width: 80%;
+  margin-left: 6%;
+  background-color: transparent;
+  color: white;
+}
+
+#pesquisar-lst:hover{
+  box-shadow: 0px 0px 10px 1px brown;
+  border: 1px solid brown;
+}
+
+#pesquisar-lst:focus{
+  box-shadow: 0px 0px 10px 1px brown;
+  border: 1px solid brown;
+}
+
+
+#input-pesquisar{
+  margin-top: 4%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+#cabecalho-chat{
+  width: 100%;
+  height: 15%;
+  background-color: #141418;
+}
+
+#mensagem-chat{
+  width: 100%;
+  height: 70%;
+  /*background-color: #201F1F;*/
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 20px 5px black;
+  border-top: 2px solid darkgrey;
+  border-bottom: 2px solid darkgrey;
+}
+
+#enviar-chat{
+  width: 100%;
+  height: 15%;
+  background-color: #141418;
+  box-shadow: inset 0px 0px 30px 2px black;
+}
+
+#enviar-msg{
+  position: static;
+  margin-left: 15%;
+  width: 60%;
+  height: 50px;
+  margin-top: -1.5%;
+  background: transparent;
+  color: white;
+}
+
+#btn-enviar2{
+  color: white;
+  background-color: transparent;
+  height: 50px;
+  font-size: 30px;
+  margin-top: -14px;
+}
+
+#btn-enviar2:hover{
+  border-color: brown;
+  color: brown;
+}
+
+#input-enviar{
+  margin-top: 4%;
+  width: 100%;
+}
+
+
+
+#img-usuario-chat{
+  background-color: ;
+  border-bottom-right-radius: 100%;  
+  border-bottom-left-radius: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right: 2px solid brown;
+  border-bottom: 2px solid brown;
+  border-left: 5px solid brown;
+  border-top: 5px solid brown;
+  text-align: center;
+  height: 80%;
+  width: 7%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+#img-mesa-chat{
+  background-color: ;
+  text-align: center;
+  border-radius: 100%;
+  height: 70%;
+  width: 8%;
+  margin-left: 1%;
+  margin-top: 1.8%;
+}
+#img-mesa-chat img{
+  width: 100%;
+  height: 100%;
+  margin-top: -10%;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+#img-usuario-chat img{
+  width: 80%;
+  height: 100%;
+  margin-top: -10%;
+}
+
+#info-eu{
+  background-color: transparent;
+  height: 100%;
+  width: 45%;
+  color: white;
+  margin-left: 2%;
+}
+
+#infos{
+  background-color: green;
+  width: 100%;
+}
+
+#online{
+  border-top: 1px solid white;
+  width: 120%;
+}
+
+
+#msg-chat{
+  width: 92%;
+  height: 100%;
+  margin-left: 4%;
+  background-color: transparent;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+#msg-amigo{
+  background-color: #141418;
+  color: white;
+  width: 50%;
+  height: auto;
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  position: relative;
+  word-wrap: break-word;
+}
+
+#msg-amigo:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-right: 20px solid #141418;
+  border-top: 20px solid transparent;
+  bottom: 0px;
+  left: -8%;
+  
+}
+
+#msg-eu{
+  background-color: #141418;
+  color: white;
+  width: 50%;
+  height: auto;
+  margin-left: 45%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  position: relative;
+  word-wrap: break-word;
+}
+
+#msg-eu:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 20px solid #141418;
+  border-right: 20px solid transparent;
+  border-top: 20px solid transparent;
+  bottom: 0px;
+  left: 100%;
+  
+}
+
+#msg{
+  padding: 5px;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+#hora{
+  margin-left: 90%;
+}
+
+#componentes{
+  background-color: transparent;
+  height: 100%;
+  width: 20%;
+  margin-left: 15%;
+}
+
+#arquivo{
+     position: relative;
+  cursor: pointer;
+  height: 100%;
+  width: 40%;
+  background-color: transparent;
+  font-size: 250%;
+  color: white;
+  text-align: center;
+  line-height: 90px;
+  margin-top: 2%;
+}
+
+#config{
+  cursor: pointer;
+  height: 100%;
+  width: 40%;
+  background-color: transparent;
+  font-size: 250%;
+  color: white;
+  text-align: center;
+  line-height: 90px;
+  margin-top: 2%;
+}
+
+#btn-config{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+#btn-config:focus{
+   box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#drop{
+  background-color: #151515;
+  color: white;
+  margin-top: -30px;
+  margin-left: 10px;
+  border: 1px solid white;
+}
+#drop a{
+  color: white;
+}
+
+#drop a:hover{
+  background-color: brown;
+  color: white;
+}
+#drop:hover{
+  background-color: ;
+  color: white;
+  border: 1px solid black;
+}
+
+
+#arquivo:hover{
+  color: #1C7DB5;
+}
+
+
+.file_upload {
+   opacity: 0.0;
+
+   /* IE 8 */
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
+   /* IE 5-7 */
+   filter: alpha(opacity=0);
+ 
+   /* Netscape or and older firefox browsers */
+   -moz-opacity: 0.0;
+
+   /* older Safari browsers */
+   -khtml-opacity: 0.0;
+
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height:100%;
+}
+
+#btn-config:hover{
+  color: brown;
+}
+
+
+#config:hover{
+  color: brown;
+}
+
+#nick-amigo{
+  cursor: pointer;
+}
+
+#mensagem-modal{
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  font-size: 130%;
+  font-family: Arial, Helvetica, sans-serifm;
+}
+
+#mensagem-modal h4{
+  color: #1C7DB5;
+  font-size: 130%;
+}
+
+#mensagem-enviar{
+  background-color: #141418;
+  color: white;
+}
+
+#mensagem-enviar:hover{
+  box-shadow: 0px 0px 10px 1px #1C7DB5;
+  border: 0.5px solid #1C7DB5;
+}
+
+#mensagem-cancelar{
+  background-color:  #141418;
+  color: white;
+}
+
+#mensagem-cancelar:hover{
+  box-shadow: 0px 0px 10px 1px brown;
+  border: 0.5px solid brown;
+}

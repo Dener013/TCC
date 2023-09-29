@@ -1,0 +1,443 @@
+::-webkit-scrollbar              { width:12px; }
+::-webkit-scrollbar-button       { background-color: #383838; }
+::-webkit-scrollbar-track        { /* 3 */ }
+::-webkit-scrollbar-track-piece  { background-color: #383838; }
+::-webkit-scrollbar-thumb        { background-color: grey; border-radius: 25px; }
+::-webkit-scrollbar-corner       { /* 6 */ }
+::-webkit-resizer                { /* 7 */ }
+::-webkit-input-placeholder { font-family: Arial, Helvetica, sans-serifm; color: brown;}
+
+
+/*Zerar o eixo*/
+*{margin: 0}
+
+a p{text-decoration: none; color: white;}
+body{
+	background-image: url(../img/fundo3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#audio{
+	height: 40px;
+	width: 100%;
+	margin-left: 0%;
+	margin-bottom: -5.5%;
+	background-color: white;
+	border-radius: 0px;
+}
+
+audio{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+
+
+#ranking h2{
+	color: brown;
+}
+
+#btn-pesquisar:hover{
+	background-color: brown;
+	box-shadow: 0px 0px 10px 1px brown;
+	border: 1px solid brown;
+	color: white;
+}
+
+#logo{
+	margin-top: -2%;
+}
+
+#logo:hover{
+	 -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02); 
+    transition-duration: 0.2s;
+}
+
+#box-logo:hover{
+	height: auto;
+	border-bottom: 3px solid #1C7DB5;
+	transition-duration: 0.2s;
+}
+
+
+#cadastrar{
+	font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+	color: white;
+}
+#cadastrar:hover{color: #1C7DB5;border-bottom: 0.05px solid #1C7DB5; transition-duration: 0.3s;}
+
+#login{
+	font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+	color: white;
+}
+#login:hover{color: brown;border-bottom: 0.05px solid brown; transition-duration: 0.3s;}
+
+#menu{
+	background-color: #141418;
+	box-shadow: 0px 0px 10px 2px black;
+}
+
+#geral{
+
+	width: 100%;
+	margin-top: 1%;
+	height: 1000px;
+}
+
+#geral div{
+	float: left;
+}
+
+#pesquisar{
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+}
+#pesquisar:hover{
+	box-shadow: 0px 0px 10px 1px brown;
+	border: 2px solid brown;
+	border-radius: 5px;
+}
+#pesquisar:focus{
+	box-shadow: 0px 0px 10px 1px brown;
+	border: 2px solid brown;
+	border-radius: 5px;
+}
+
+#noticia{
+	background-color: #1A1A1A;
+	margin-left: 3%;
+	margin-top: 5%;
+	height: 900px;
+	width: 60%;
+	border: 5px solid black;
+	box-shadow: 0px 5px 40px 15px  black;
+	color: white;
+}
+
+#noticia-pesquisar{
+	background-color: #1A1A1A;
+	margin-top: 5%;
+	height: 900px;
+	width: 65%;
+	border-radius: 0px;
+	border: 5px solid black;
+	box-shadow: 0px 5px 40px 15px  black;
+	color: white;
+}
+
+
+
+#noticiaa{
+	box-shadow: 0px 0px 30px 5px black;
+	background-color: navy;
+	width: 40%;
+	margin-left: 6%;
+	border-radius: 10px;
+	margin-top: 5%;	
+}
+
+#mycarousel{
+	margin-left: 0%;
+	background-color: pink;
+	width: 100%;
+	height: 780px;
+	margin-top: -1.5%;
+	background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: ;
+    background-size: cover;
+    box-shadow: 0px 0px 70px 50px black;
+}
+
+#manchete {
+	font-family: Arial, Helvetica, sans-serifm;
+    font-size: 100%;
+    margin-top: -10%;
+    text-align: center;
+}
+
+#noticiaa img{
+	border-radius: 5px;
+	margin-top: -2%;
+}
+
+#noticiaa p{
+	position: absolute;
+	margin-bottom: : 2%;
+	margin-left: 0.5%;
+	margin-top: -2.1%;	
+	color: white;
+	font: bold 15px/35px Georgia;
+}
+
+#noticiaa:hover{
+	 -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+#noticia h3{
+	font-family: Arial, Helvetica, sans-serifm;
+    font-size: 300%;
+    color: #1C7DB5;
+}
+
+#noticia-pesquisar h3{
+	font-family: Arial, Helvetica, sans-serifm;
+    font-size: 300%;
+    color: #1C7DB5;
+}
+
+.row div{
+	width: 44%;
+	margin-top: 2%;
+	margin-left: 3.5%;
+}
+
+.row div img{
+	border-radius: 6px;
+}
+
+#pagina{
+	margin-left: 47%;
+	margin-top: 4%;
+}
+
+#pagina li a{
+	color: black;
+	border: 1px solid black;
+}
+
+#carousel{
+	margin-top: 4%;
+	border: 5px solid black;
+	box-shadow: 0px 0px 40px 5px black;
+}
+
+#selecionado{
+	background-color: brown;
+	color: white;
+}
+#selecionado a{
+	background-color: brown;
+	color: white;
+}
+
+#ranking{
+	border: 5px solid black;
+	color: white;
+	background-color: #1C1C1C;
+    box-shadow: 0px 5px 40px 15px  black;
+	width: auto;
+	height: 630px;
+	margin-top: 2.5%;
+	margin-left: 7%;
+	margin-right: 4%;
+	font-family: Arial, Helvetica, sans-serifm;
+    font-size: 150%;
+}
+
+footer {
+	margin-top: 5%;
+	height: 300px;
+    background-color: #141418;
+    color: white;
+    border-top: 5px solid white;
+}
+
+
+.quemsomos{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 18%;
+    height: 30%;
+    width: 30%;
+    background-color: transparent;
+    border-right: 1px solid white;
+}
+
+.quemsomos h3{
+    color: white;
+    margin-left: -5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.quemsomos p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serifm; font-size: 130%;
+    margin-top: 0%;
+    margin-right: 6%;
+}
+
+.fale-conosco{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 50%;
+    height: auto;
+    width: 25%;
+    border-left: 1px solid white;
+    background-color: transparent;
+}
+
+.fale-conosco h3{
+    color: brown;
+    margin-left: 2%;
+    margin-top: 7%;
+    margin-bottom: 15px;
+}
+
+.fale-conosco p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serifm; font-size: 130%;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.img-coruja{
+    height: 70px;
+    width: 70px;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-bottom: -4%;
+}
+
+.img-espada{
+    height: 120px;
+    width: 120px;
+    margin-left: -5%;
+    margin-top: -5%;
+    margin-bottom: -9%;
+}
+
+#logo{
+    color: pink;
+}
+
+#foto{
+    background-image: url(../img/coruja.png);
+}
+
+#propaganda{
+	margin-left: 10%;
+	margin-top: 5%;
+	border: 2px solid black;
+	width: 18%;
+	box-shadow: 0px 0px 20px 1px black;
+}
+
+
+
+
+
+
+
+@media (max-width: 1198px) { 
+
+	#geral{
+		height: auto;
+	}
+
+	#noticia{
+		background-color: #1A1A1A;
+		margin-top: 5%;
+		height: auto;
+		width: 100%;
+		margin-left: 0%;
+		border-radius: 0px;
+		border: 5px solid black;
+		box-shadow: 0px 5px 40px 15px  black;
+		color: white;
+	}
+
+	#ranking{
+		border: 5px solid black;
+		color: white;	
+		background-color: #1C1C1C;
+	    box-shadow: 0px 5px 40px 15px  black;
+		width: auto;
+		height: 630px;
+		margin-top: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-family: Arial, Helvetica, sans-serifm;
+	    font-size: 150%;
+	}
+
+	#noticiaa img{
+		border-radius: 0px;
+		margin-top: 15px;
+		display: unset;
+	}
+
+	#propaganda{
+		margin-left: 43%;
+	}
+	#propaganda img{
+		
+		height: auto;
+		width: auto;
+	}
+	#geral div{
+		float: none;
+	}
+}
+
+@media (max-width: 765px) { 
+
+	#noticia{
+		width: 100%;
+	}
+
+	#noticiaa{
+		box-shadow: 0px 0px 30px 5px black;
+		background-color: brown;
+		width: 80%;
+		margin: auto;
+		margin-top: 10%;
+		border: 1px solid brown;
+	}
+
+	#ranking{
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+
+	footer {
+		height: 420px;
+	}
+
+	.quemsomos p{
+		font-size: 100%;
+	}
+
+	.fale-conosco p{
+		font-size: 100%;
+	}
+
+	.fale-conosco {
+		width: 29%;
+	}
+
+	.img-coruja{
+	    margin-top: 11%;
+	}
+
+	#noticiaa img{
+		border-radius: 0px;
+		width: 100%;
+	}
+}

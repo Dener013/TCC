@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Taverna do Peregrino - Cadastro</title>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/cadastrarteste.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	
+</head>
+<body>
+	<!-- caixa pai de cadastro -->
+	<div class="pai-cadastro" class="container">
+			<!-- formulario -->
+		<form class="form-login" id="formDados" action="php/cadastrar.php" method="post">
+			<div id="box-cadastro">
+				<h2>Cadastrar</h2>
+				<div class="progress" id="tamanho-progr">
+				    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+				      20%
+				    </div>
+				 </div>
+				<hr>
+				<input id="txt-nome" class="form-control" type="text" name="txt-nome" placeholder="Nome Completo" required="" onkeyup="nome()"> 
+				<span class="tooltiptext" id="nome-error">Nome muito curto!</span>
+
+				<input id="txt-nick" class="form-control" type="text" name="txt-nick" placeholder="Nickname" required="" onkeyup="nick()" onkeyup="buscarNick()">
+				<span class="tooltiptext2" id="nick-error">Nick muito curto!</span>
+
+				<input id="txt-data" class="form-control" type="date" name="data" placeholder="" required="" min="1950-01-01" max="2010-01-01">
+
+				
+
+				<input id="txt-senha" class="form-control" type="password" min="8" name="senha" required="" placeholder="Senha" onkeyup="senhalimite()">
+				<span class="tooltiptext5" id="limitesenha-error">Senha muito curta (minimo 9)!</span>
+
+				<input id="txt-confsenha" class="form-control" type="password" name="" required="" placeholder="Confirmar Senha" onkeyup="confsenha()">
+				<span class="tooltiptext4" id="senha-error">Senha não equivalem!</span>
+
+				<label class="checkbox-inline" id="lbl-termos">
+			      <input type="checkbox" name="termos" value="1">Eu concordo com os <a href="termos.html">Termo de Uso</a>
+			    </label>
+
+			    <button onclick="proximo2()" id="btn-cadastrar">Continuar</button>	
+			</div>
+
+
+			<div id="box-cadastro3">
+				<h2>Cadastrar</h2>
+				<div class="progress" id="tamanho-progr">
+				    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+				      60%
+				    </div>
+				  </div>
+				  <hr>
+
+				  <h3 id="campeao">Escolha seu Campeão</h3>
+
+				  <label id="barbaro" onclick="barbs()"><img src="perfil/barbaro.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236" id="barbaroimg" onmouseover="BarbaroOver()" onmouseout="BarbaroOut()"><input type="radio" name="icon" value="barbaro" id="icone"></label>
+
+				  <label id="mago" onclick="mag()"><img src="perfil/mago.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236" id="magoimg" onmouseover="MagoOver()" onmouseout="MagoOut()"><input type="radio" name="icon" value="mago" id="icone"></label>
+
+				  <label id="ladino" onclick="lad()"><img src="perfil/ladino.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236" id="ladinoimg" onmouseover="LadinoOver()" onmouseout="LadinoOut()" ><input type="radio" name="icon" value="ladino" id="icone"></label>
+
+				  <label id="cavaleiro" onclick="cav()"><img src="perfil/cavaleiro.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236" id="cavaleiroimg" onmouseover="CavaleiroOver()" onmouseout="CavaleiroOut()"><input type="radio" name="icon" value="cavaleiro" id="icone"></label>
+
+				  <button onclick="proximo3()" id="btn-cadastrar3" disabled="true">Continuar</button>	
+			</div>
+
+			<div id="box-cadastro2">
+				<h2>Cadastrar</h2>
+				<div class="progress" id="tamanho-progr">
+				    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+				      100%
+				    </div>
+				  </div>
+				<hr>
+				<br>
+
+				<input id="txt-email" class="form-control" type="email" name="email" placeholder="E-mail" required="" id="email">
+
+				<br>
+				<br>
+
+				<input id="txt-confemail" class="form-control" type="text" name="" placeholder="Confirmar E-mail" id="email2" required="" onkeyup="confemail()">
+				<span class="tooltiptext3" id="email-error">Emails não equivalem!</span>	
+
+				<br>
+				<br>
+
+				<button id="btn-cadastrar2" type="submit">Concluir</button>
+			</div>
+		</form>	
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/cadastro.js"></script>
+
+</body>
+</html>

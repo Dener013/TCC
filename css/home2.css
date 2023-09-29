@@ -1,0 +1,123 @@
+#home{
+	font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+	color: white;
+}
+#home:hover{color: #1C7DB5;border-bottom: 0.1px solid #1C7DB5; transition-duration: 0.5s;}
+
+#minha-guilda{
+	font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+	color: white;
+
+}
+#minha-guilda:hover{color: brown;border-bottom: 0.1px solid brown; transition-duration: 0.5s;}
+
+#jogadores{
+	font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+	color: white;
+}
+#jogadores:hover{color: brown;border-bottom: 0.1px solid brown; transition-duration: 0.5s;}
+
+#mesas{
+	font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+	color: white;
+}
+#mesas:hover{color: brown;border-bottom: 0.1px solid brown; transition-duration: 0.5s;}
+
+#nick{
+	font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+	color: brown;
+}
+#nick:hover{color: brown; border-bottom: 0.1px solid brown; transition-duration: 0.5s;}
+
+
+#menu-home{
+	background-color: #141418;
+	border: 1px solid brown;
+}
+
+
+#menu-home li a:hover{
+	background-color: black;
+	color: brown;
+}
+
+#menu-home li a{
+	color: white;
+	font-family: Arial, Helvetica, sans-serifm;
+  	font-size: 120%;
+}
+
+#carousel{
+	border: 2px solid black;
+	box-shadow: 0px 0px 40px 10px black;
+}
+
+#mycarousel{
+	margin-left: 0%;
+	background-color: pink;
+	width: 100%;
+	height: 800px;
+	margin-top: -1.5%;
+	background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: ;
+    background-size: cover;
+    box-shadow: inset 0px 0px 100px 10px black;
+}
+
+#myCarousel{
+	margin-top: 3%;
+
+}
+
+#mensa{
+	font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+	background: transparent;
+	border: none;
+	margin-top: 9%;
+}
+
+#num{
+	margin-top: -15%;
+}
+
+#mensa:hover{color: #1C7DB5;border-bottom: 0.1px solid #1C7DB5; transition-duration: 0.1s;}
+
+#mensa:focus{box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;}
+
+
+#mensagem{
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  font-size: 130%;
+  font-family: Arial, Helvetica, sans-serifm;
+}
+
+#mensagem h4{
+  color: #1C7DB5;
+  font-size: 130%;
+}
+
+#mensagem-enviar{
+  background-color: #141418;
+  color: white;
+}
+
+#mensagem-enviar:hover{
+  box-shadow: 0px 0px 10px 1px #1C7DB5;
+  border: 0.5px solid #1C7DB5;
+}
+
+#mensagem-cancelar{
+  background-color:  #141418;
+  color: white;
+}
+
+#mensagem-cancelar:hover{
+  box-shadow: 0px 0px 10px 1px brown;
+  border: 0.5px solid brown;
+}

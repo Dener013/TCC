@@ -1,0 +1,601 @@
+#home{
+  font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+  color: white;
+}
+#home:hover{color: #1C7DB5;border-bottom: 0.1px solid #1C7DB5;}
+
+#jogadores{
+  font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+  color: white;
+}
+#jogadores:hover{color: brown;border-bottom: 0.1px solid brown;}
+
+#mesas{
+  font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+  color: white;
+}
+#mesas:hover{color: brown;border-bottom: 0.1px solid brown;}
+
+#nick{
+  font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+  color: brown;
+}
+#nick:hover{color: brown;border-bottom: 0.1px solid brown;}
+
+
+#menu-home{
+  background-color: #141418;
+}
+
+#menu-home li a:hover{
+  background-color: black;
+  color: brown;
+}
+
+#menu-home li a{
+  color: white;
+  font-family: Arial, Helvetica, sans-serifm;
+  font-size: 120%;
+}
+
+#box-img{
+  position: absolute;
+  height: 450px;
+  width: 18%;
+  margin-top: 2%;
+  margin-left: 41%;
+  background-color: #D19F28;
+  color: transparent;
+  border-radius: 70%;
+  z-index: 2;
+  border: 5px solid black;
+  box-shadow: -10px 0px 60px 20px black;
+}
+
+
+#img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+
+
+.info{
+  position: ;
+  background-color:  #D19F28;
+  height: 700px;
+  width: 70%;
+  margin-left: 16.5%;
+  margin-top: 30%;
+  z-index: 1;
+  border: 5px solid #583C01;
+  box-shadow: 0px 0px 60px 30px black;
+  font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+  color: black;
+}
+
+
+#feedback{
+  background-color: #141418;
+  width: 100%;
+  height: auto;
+   box-shadow: 0px -10px 40px 1px black;
+}
+#box-feed{
+  width: 100%;
+  height: auto;
+}
+
+#feedback h2{
+  color: brown;
+  font-family: Arial, Helvetica, sans-serifm;
+}
+
+#comentario{
+  margin-bottom: 4%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serifm;
+
+}
+
+#fazer{
+  color: #1C7DB5;
+}
+
+#lbl-nome{
+  margin-left: 8%;
+  margin-top: 10%;
+}
+
+#lbl-nick{
+  margin-left: 4%;
+  margin-top: 4%;
+
+}
+
+#lbl-data{
+ margin-left: 11%; 
+ width:%;
+}
+
+#lbl-bios{
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+#area{
+  position: absolute;
+  margin-top:;
+  resize: none;
+  background-color: #141418;
+  color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+#lbl-mesas{
+  position: absolute;
+  margin-top: 18%;
+  margin-left: -5%;
+}
+
+#isso tbody tr{
+  background-color: #141418;
+}
+#vamos{
+  height: 200px;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: -9%;
+}
+#isso thead th{
+  color:#D19F28;
+}
+
+#isso{
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-color: black;
+  color: white;
+  height: 168px;
+  width: 124%;
+  background-color: #141418;
+  font-size: 76%;
+}
+
+#btn-conf{
+  margin-top: 45%;
+  margin-left: 1%;
+  width: 15%;
+  height: 6%;
+  background-color: brown;
+  border-color: black;
+}
+
+#btn-salvar{
+  visibility: hidden; 
+  margin-top: 45%;
+  margin-left: 60%;
+  width: 15%;
+  height: 6%
+}
+
+#info-box{
+  background-color: #141418;
+  border: 5px solid black;
+  box-shadow: 0px 0px 40px 1px black;
+}
+
+#title-info{
+  color: #D19F28;
+  font-size: 150%;
+}
+
+#title-info-mesa{
+  color: #D19F28;
+  font-size: 230%;
+}
+
+#info-dele{
+  color: brown;
+  border: none;
+  background-color: transparent;
+}
+#info-delee{
+  pointer-events:none;
+  text-align:center;
+  color: brown;
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+
+#info-user{
+  background-color: ;
+  color: white;
+  width: 30%;
+  height: 270px;
+  border-right: 1px solid brown;
+  font-family: Arial, Helvetica, sans-serifm; font-size: 150%;
+}
+
+#mesas-user{
+  background-color: ;
+  border-left: 1px solid brown;
+  width: 60%;
+  height: 270px;
+}
+
+#tb-mesas{
+  width: 95%;
+  margin-left: 0;
+  margin-top: 0;
+  width: auto;
+  color: white;
+}
+#tb-mesas tbody tr{
+  background-color: #141418;
+}
+
+#tb-mesas thead th{
+  color: brown;
+}
+
+#bio-user{
+  background-color: ;
+  margin-top: 3%;
+  border-top: 1px solid brown;
+  width: 93.5%;
+  margin-bottom: 5%;
+}
+
+#txt-bios{
+  background-color: #141418;
+  color: white;
+  resize: none;
+  border-radius: 5px;
+  font-size: 160%;
+  border: none;
+}
+
+#txt-bios:focus{
+  box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#salvar{
+  display: none;
+  margin-top: -5%;
+  width: 40%;
+  background-color:  #D19F28;
+  border-color: black;
+}
+#salvar:hover{
+  box-shadow: 0px 0px 10px 1px  #D19F28;
+  border-color:  #D19F28;
+}
+
+#editar{
+  margin-top: -5%;
+  margin-left:;
+  width: 40%;
+  background-color: #1C7DB5;
+  border-color: black;
+}
+
+#editar:hover{
+  box-shadow: 0px 0px 10px 1px #1C7DB5;
+  border-color: #1C7DB5;
+}
+
+#cancelar{
+  display: none;
+  margin-top: -3%;
+  margin-bottom: 2%;
+  width: 40%;
+  background-color: brown;
+  border-color: black;
+}
+
+#cancelar:hover{
+  box-shadow: 0px 0px 10px 1px brown;
+  border-color: brown;
+}
+
+#box-mesas{
+  width: auto;
+  height: 180px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#img-comentario{
+  width:10px; 
+  border-bottom-right-radius: 100px; 
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border: 2px solid  #D19F28;
+  border-left: 5px solid  #D19F28;
+  border-top: 6px solid  #D19F28;
+}
+
+#feedback img{
+  width: auto;
+  height: 10%;
+}
+
+#feedback h3{
+  color: #D19F28;
+  font-size: 210%;
+  width: 20%;
+}
+
+#btn-op{
+  border: none;
+}
+
+#btn-op span{
+  font-size: 150%;
+}
+
+#div-btn-op{
+  width: 4%;
+}
+
+#feedback h4{
+  font-size: 200%;
+}
+#feedback p{
+  font-size: 120%;
+}
+#comentario{
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+textarea{
+  vertical-align: middle;
+  text-align: center;
+}
+
+#menu-drop{
+  background-color: black;
+  border: 1px solid #D19F28;
+}
+
+#menu-drop p{
+  color: white; 
+  margin-bottom: 1%; 
+  cursor: pointer;
+}
+
+#menu-drop p:hover{
+ background-color: #141418;
+ color: #D19F28;
+}
+
+#menu-drop{
+  text-align: center;
+}
+
+.estrelas input[type=radio] {
+  display: none;
+}
+.estrelas label i.fa:before {
+  content:'\f005';
+  color: #FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
+
+.estrelas label{
+  font-size: 180%;
+}
+
+
+.personal-image {
+  margin-top: 2%;
+  text-align: center;
+  /*background-image: url(../perfil/mago-fundo.jpg);*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: ;
+  background-size: cover;
+  border: 5px solid black;
+  box-shadow: 0px 0px 40px 5px black;
+}
+.personal-image div{
+  float: left;
+}
+.personal-image input[type="file"] {
+  display: none;
+}
+.personal-figure {
+  background-color: transparent;
+ /* background-color: ;
+  border: 1px solid gold;*/
+   cursor: pointer;
+  box-shadow: 0px 0px 50px 20px black;
+  border-radius: 100%;
+  position: relative;
+  width: 18%;
+  height: 15%;
+  margin-left: 40%;
+}
+.personal-figure:hover {
+  opacity: 0.6;
+}
+
+.personal-figure-user {
+  background-color: transparent;
+   box-shadow: 0px 0px 50px 20px black;
+  border-radius: 100%;
+  position: relative;
+  width: 18%;
+  height: 15%;
+  margin-left: 40%;
+}
+
+.personal-avatar {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  transition: all ease-in-out .3s;
+}
+.personal-avatar:hover {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.personal-figcaption {
+  position: absolute;
+  top: 28px;
+  width: inherit;
+  height: inherit;
+  border-radius: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all ease-in-out .3s;
+}
+.personal-figcaption:hover {
+  opacity: 0.2;
+  background-color: rgba(0, 0, 0, .5);
+}
+.personal-figcaption > span {
+  margin-top: 32.5px;
+  margin-left: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+#icones{
+  background-color: transparent;
+  border: 0px solid black;
+
+  height: 300px;
+  width: 80%;
+  margin-left: 10%;
+  border-bottom: 1px solid brown;
+}
+
+#icones div{
+  float: left;
+
+}
+
+
+#barbaro{
+  cursor: pointer;
+  margin-right: 1%;
+  height: 90%;
+  width: 24%;
+  margin-top: 1.5%;
+  border-radius: 100%;
+  border: 5px solid black;
+  box-shadow: inset 0px 0px 100px 0px black;
+background-color: orange;
+}
+
+
+#mago{
+  cursor: pointer;
+  margin-right: 1%;
+  height: 90%;
+  width: 24%;
+  margin-top: 1.5%;
+  border-radius: 100%;
+  border: 5px solid black;
+  box-shadow: inset 0px 0px 100px 10px black;
+background-color: purple;
+}
+
+#cavaleiro{
+  cursor: pointer;
+  margin-right: 1%;
+  height: 90%;
+  width: 24%;
+  margin-top: 1.5%;
+  border-radius: 100%;
+  border: 5px solid black;
+  box-shadow: inset 0px 0px 100px 10px black;
+background-color: gold;
+}
+
+#ladino{
+  cursor: pointer;
+  margin-right: 1%;
+  height: 90%;
+  width: 24%;
+  margin-top: 1.5%;
+  border-radius: 100%;
+  border: 5px solid black;
+  box-shadow: inset 0px 0px 100px 10px black;
+background-color: green;
+}
+
+#ba{
+  height: 100%;
+  widows: 100%;
+}
+
+
+
+#regiao-box{
+  display: none;
+  width: 100%;
+  height: 150px;
+
+}
+
+#regiao-box select{
+background-color: transparent;
+  color: white;
+}
+
+ 
+
+#regiao-box div{
+ float: left;
+}
+
+
+#estado{
+  width: 33.3%;
+  height: 10%;
+}
+
+#cidade{
+width: 33.3%;
+  height: 10%;
+}
+
+#bairro{
+width: 33.3%; 
+  height: 10%;
+}
+
+#estado select{
+  width: 100%;
+}
+
+#cidade select{
+  width: 100%;
+}
+
+#bairro select{
+  width: 100%;
+}
+
+
+option{
+  background-color: #141418;
+}

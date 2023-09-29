@@ -1,0 +1,113 @@
+#mesa-maior{
+  background-color: #141418;
+  margin-top: 2%;
+  height:auto;
+  border-radius: 5px;
+  border: 5px solid black;
+  box-shadow: 0px 0px 25px 10px black;
+}
+
+#mesa-menor{
+  background-color: #141418;
+  float:left;
+  height:auto;
+  width:30%;
+
+}
+
+#mesa-maior h2{
+  color: brown;
+}
+
+#menor{
+	color: white;
+}
+
+#players{
+	 background-color: #0C0B0B;
+	 margin-left: 31%;
+	 width:70.5%;
+   border-left: 4px solid black;
+   box-shadow: 6px 0px 50px -1px black;
+   background-color: brown;
+}
+
+#estado{
+  width: 98%;
+}
+
+#estado select{
+  width: 100%;
+}
+
+#cidade{
+  width: 98%;
+}
+
+#cidade select{
+  width: 100%;
+}
+
+#bairro{
+  width: 98%;
+}
+
+#bairro select{
+  width: 100%;
+}
+
+#publico{
+	margin-left: 15%;
+}
+
+#publico1{
+	margin-left: 16%;
+}
+
+#lbl-pub{
+  margin-left: 2%;
+}
+
+#mesa-centro{
+  height: 650px;
+  width: 90%;
+  margin-top: -1%;
+  margin-left: 15%;
+}
+
+#isso{
+  background-image: url(../img/mesa3.png);
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 0%;
+  width: 100%;
+}
+
+#criar{
+  width: 100%;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: brown;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: relative;
+  z-index: 1;
+  top: 28%;
+  left: 60%;
+}
+.tooltiptext::after {
+
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent brown transparent;
+}
